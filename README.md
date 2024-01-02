@@ -22,7 +22,7 @@ Oracle Linux 8 Aarch64 DVD ISO is a full installation disk image. It can work wi
 
 UTM is a user-friendly full-featured system emulator and virtual machine host for iOS and macOS. UTM enables you to run Windows, Linux, and more on your Mac, iPhone, and iPad. UTM is based on QEMU.
 
-[Download macOS UTM QEMU](https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg)
+[Download macOS UTM QEMU](https://github.com/utmapp/UTM/releases/latest/download/UTM.dmg).
 
 
 ## Create VM
@@ -117,6 +117,16 @@ Choose the language and locale:
 ### Installation Summary
 
 <img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-02-installation-summary.png" alt="Screenshots / Oracle Linux setup / Step 2 Installation Summary">
+
+The next steps below will configure these:
+
+1. Installation Destination
+
+2. Network & Host Name
+
+3. Create Root
+
+4. Create User
 
 
 ### Installation Destination
