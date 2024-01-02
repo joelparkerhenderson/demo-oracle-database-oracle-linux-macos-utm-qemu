@@ -255,7 +255,7 @@ After the configuration:
 
 ### Launch Terminal
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-getting-started.png" alt="Screenshots / User setup / Step 6 Launch Terminal">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-6-launch-terminal.png" alt="Screenshots / User setup / Step 6 Launch Terminal">
 
 
 ## Become root
