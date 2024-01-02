@@ -6,7 +6,7 @@ Demonstration of:
 
 * Oracle Linux 8 Aarch64
 
-* macOS UTM QEMU emulator
+* macOS UTM QEMU emulator on macOS 14.1 Arm M1
 
 Feedback welcome.
 
@@ -27,48 +27,124 @@ UTM is a user-friendly full-featured system emulator and virtual machine host fo
 
 ## Create VM
 
-Launch UTM and choose to create a new VM.
+Launch UTM.
 
-Steps:
 
-1. "Start" dialog:
+### Welcome
 
-  * Choose "Virtualize".
+<img loading="lazy" src="/assets/images/screenshots/utm/step-1-welcome.png" alt="Screenshots / UTM / Step 1 Welcome">
 
-2. "Operating System" dialog: 
+* Choose "Create a New Virtual Machine".
 
-   * Choose the Custom area "Other".
 
-3. "Other" dialog:
+### Start
 
-  * Tap "Browse" then find file "OracleLinux-R8-U9-aarch64-dvd.iso".
+<img loading="lazy" src="/assets/images/screenshots/utm/step-2-start.png" alt="Screenshots / UTM / Step 2 Start">
+
+* Choose "Virtualize".
+
+
+### Operating System
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-3-operating-system.png" alt="Screenshots / UTM / Step 3 Operating System">
+
+ * Choose the Custom area "Other".
+
+
+### Other
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-4-other.png" alt="Screenshots / UTM / Step 4 Other">
+
+* Tap "Browse" then find file "OracleLinux-R8-U9-aarch64-dvd.iso".
+
+
+### Hardware
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-5-hardware.png" alt="Screenshots / UTM / Step 5 Hardware">
   
-  * Memory: 8192 (or whatever you prefer)
+* Memory: 8192 (or whatever you prefer)
 
-  * CPU Cores: 1 (or whatever you prefer)
+* CPU Cores: 2 (or whatever you prefer)
 
-4. "Storage" dialog:
 
-  * 64 GB (or whatever you prefer)
+### Storage
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-6-storage.png" alt="Screenshots / UTM / Step 6 Storage">
+
+* 64 GB (or whatever you prefer)
+
+
+### Shared Directory
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-7-shared-directory.png" alt="Screenshots / UTM / Step 7 Shared Directory">
+
+* Leave blank (or set it if you prefer)
+
+
+### Summary
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-8-summary.png" alt="Screenshots / UTM / Step 9 Summary">
+
+* Click "Save".
   
-5. "Shared Directory" dialog:
 
-  * As is.
+### Play
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-9-play.png" alt="Screenshots / UTM / Step 9 Play">
+
+* Click the play icon.
+  
+
+### Install
+
+<img loading="lazy" src="/assets/images/screenshots/utm/step-10-install.png" alt="Screenshots / UTM / Step 10 Install">
+
+* Choose "Install Oracle Linux 8.9.0"
 
 
 ## Configure VM
+        
 
-Choose the language:
+### Install
 
-* We choose English.
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-01-install.png" alt="Screenshots / Oracle Linux setup / Step 1 Install">
+
+Choose the language and locale:
+
+* Choose English and United States (or whatever you prefer).
+
+
+### Installation Summary
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-02-installation-summary.png" alt="Screenshots / Oracle Linux setup / Step 2 Installation Summary">
+
+
+### Installation Destination
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-03-installation-destimation.png" alt="Screenshots / Oracle Linux setup / Step 3 Installation Destination">
+
+
+### Network & Host Name
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-04-network-and-host-name.png" alt="Screenshots / Oracle Linux setup / Step 4 Network & Host Name">
+
+
+### Create Root
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-05-root-password.png" alt="Screenshots / Oracle Linux setup / Step 4 Root Password">
 
 Create root account:
 
 * Check the box to create a root account. 
 
-* Set the password to "changethispassword" (or whatever you prefer).
+* Set the password to "changeme123XYZ!" (or whatever you prefer).
 
 * Click "Done".
+
+
+### Create User
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-06-create-user.png" alt="Screenshots / Oracle Linux setup / Step 6 Create User">
 
 Create user account:
 
@@ -76,37 +152,48 @@ Create user account:
 
 * Set the username to "user" (or whatever you want). 
 
-* Set the password to "changethispassword" (or whatever you prefer).
+* Set the password to "changeme123XYZ!" (or whatever you prefer).
 
 * Click "Done".
 
-Create network settings:
 
-* Turn on Ethernet.
+### Begin Installation
 
-* Set host name to "host-name-example" (or whatever you prefer).
-
-* Click "Done".
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-07-begin-installation.png" alt="Screenshots / Oracle Linux setup / Step 7 Begin Installation">
 
 Eventually you should see a progress bar with the setup process.
 
+
+### Installation Progress Copmlete
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-08-installation-progress-complete.png" alt="Screenshots / Oracle Linux setup / Step 8 Installation Progress Complete">
+
 After the setup, you should see a message such as "Oracle Linux installation is successful". 
 
-Click the button "Reboot System".
+* Click the button "Reboot System".
 
 
-## Reboot VM
+## Eject & Reboot
 
-After the VM is created:
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-09-reboot.png" alt="Screenshots / Oracle Linux setup / Step 9 Reboot">
 
-1. If the VM reboots, then you might see the Grub prompt with the Oracle Linux DVD ISO options.
+You should see the Grub prompt with the Oracle Linux DVD ISO options.
 
-2. Eject the ISO by clicking the top right area icon that looks like a CD or DVD, with the tool tip "Drive image options".
+* Eject the ISO by clicking the top right area icon that looks like a CD or DVD, with the tool tip "Drive image options".
 
-3. Type "c" to get a command prompt. Type `reboot` then press return.
-   
+* Type "c" to get a command prompt.
 
-## Accept license
+* Type `reboot` then press return.
+
+
+## Initial Setup
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-10-initial-setup.png" alt="Screenshots / Oracle Linux setup / Step 10 Initial Setup">
+
+
+## License Information
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-11-license-information.png" alt="Screenshots / Oracle Linux setup / Step 11 License Information">
 
 After the reboot:
 
@@ -117,15 +204,51 @@ After the reboot:
 3. Click "FINISH CONFIGURATION".
 
 
+## License Accepted
+
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-12-license-accepted.png" alt="Screenshots / Oracle Linux setup / Step 12 License Accepted">
+
+
 ## Login
 
 After the configuration:
 
 1. You should see a typical Linux login screen.
 
-2. Log in with username "user" and password "changethispassword" (or whatever you set up earlier).
-   
-3. Launch a terminal.
+2. Log in with username "user" and password "changeme123XYZ!" (or whatever you set up earlier).
+
+
+### Welcome
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-1-welcome.png" alt="Screenshots / User setup / Step 1 Welcome">
+
+
+### Typing
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-2-typing.png" alt="Screenshots / User setup / Step 2 Typing">
+
+
+### Privacy
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-3-privacy.png" alt="Screenshots / User setup / Step 3 Privacy">
+
+
+### Ready To Go
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-4-ready-to-go.png" alt="Screenshots / User setup / Step 4 Ready To Go">
+
+
+### Getting Started
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-getting-started.png" alt="Screenshots / User setup / Step 5 Getting Stated">
+
+
+### Launch Terminal
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-getting-started.png" alt="Screenshots / User setup / Step 6 Launch Terminal">
+
+
+## Become root
 
 Become root:
 
@@ -237,6 +360,18 @@ cd /u01/app/oracle/product/19.0.0/dbhome_1
 unzip /tmp/db_home.zip
 ./runInstaller
 ```
+
+## TODO
+
+
+Create network settings:
+
+* Turn on Ethernet.
+
+* Set host name to "host-name-example" (or whatever you prefer).
+
+* Click "Done".
+
 
 
 ## Oracle Database 19c installer
