@@ -121,7 +121,7 @@ Choose the language and locale:
 
 ### Installation Destination
 
-<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-03-installation-destimation.png" alt="Screenshots / Oracle Linux setup / Step 3 Installation Destination">
+<img loading="lazy" src="/assets/images/screenshots/oracle-linux-setup/step-03-installation-destination.png" alt="Screenshots / Oracle Linux setup / Step 3 Installation Destination">
 
 
 ### Network & Host Name
