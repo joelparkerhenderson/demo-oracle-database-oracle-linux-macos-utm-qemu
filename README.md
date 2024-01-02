@@ -280,12 +280,6 @@ dnf --assumeyes autoremove
 
 ## Install developer release package
 
-Become root:
-
-```sh
-su
-```
-
 Install the Oracle Linux developer release:
 
 ```sh
