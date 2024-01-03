@@ -382,18 +382,6 @@ unzip /tmp/db_home.zip
 ./runInstaller
 ```
 
-## TODO
-
-
-Create network settings:
-
-* Turn on Ethernet.
-
-* Set host name to "host-name-example" (or whatever you prefer).
-
-* Click "Done".
-
-
 
 ## Oracle Database 19c installer
 
