@@ -13,9 +13,9 @@ Feedback welcome.
 
 ## Download Oracle Linux
 
-Oracle Linux 8 Aarch64 DVD ISO is a full installation disk image. It can work with system emulators and virtual machine hosts.
+Oracle Linux 8 R8 U9 Aarch64 DVD ISO is a full installation disk image. It can work with system emulators and virtual machine hosts.
 
-[Download Oracle Linux 8 Aarch64 DVD ISO](https://yum.oracle.com/ISOS/OracleLinux/OL8/u9/x86_64/OracleLinux-R8-U9-x86_64-dvd.iso).
+[Download Oracle Linux R8 U9 Aarch64 DVD ISO](https://yum.oracle.com/ISOS/OracleLinux/OL8/u9/aarch64/OracleLinux-R8-U9-aarch64-dvd.iso).
 
 
 ## Download macOS UTM QEMU
@@ -221,41 +221,58 @@ After the reboot:
 
 ## Login
 
-After the configuration:
 
-1. You should see a typical Linux login screen.
+### Choose User
 
-2. Log in with username "user" and password "changeme123XYZ!" (or whatever you set up earlier).
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-1-user.png" alt="Screenshots / User setup / Step 1 User">
+
+* You should see a typical Linux login screen. 
+  
+* Click "user".
+
+
+### Enter User Password
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-2-user-password.png" alt="Screenshots / User setup / Step 2 User Password">
+
+* Enter the user password "changeme123XYZ!" (or whatever you set up earlier).
 
 
 ### Welcome
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-1-welcome.png" alt="Screenshots / User setup / Step 1 Welcome">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-3-welcome.png" alt="Screenshots / User setup / Step 3 Welcome">
 
 
 ### Typing
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-2-typing.png" alt="Screenshots / User setup / Step 2 Typing">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-4-typing.png" alt="Screenshots / User setup / Step 4 Typing">
 
 
 ### Privacy
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-3-privacy.png" alt="Screenshots / User setup / Step 3 Privacy">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-privacy.png" alt="Screenshots / User setup / Step 5 Privacy">
+
+
+### Online Accounts
+
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-online-accounts.png" alt="Screenshots / User setup / Step 6 Online Accounts">
+
+* Click "Skip" (unless you prefer to set up online accounts here).
 
 
 ### Ready To Go
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-4-ready-to-go.png" alt="Screenshots / User setup / Step 4 Ready To Go">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-7-ready-to-go.png" alt="Screenshots / User setup / Step 7 Ready To Go">
 
 
 ### Getting Started
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-getting-started.png" alt="Screenshots / User setup / Step 5 Getting Stated">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-8-getting-started.png" alt="Screenshots / User setup / Step 8 Getting Stated">
 
 
 ### Launch Terminal
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-6-launch-terminal.png" alt="Screenshots / User setup / Step 6 Launch Terminal">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-9-launch-terminal.png" alt="Screenshots / User setup / Step 9 Launch Terminal">
 
 
 ## Become root
