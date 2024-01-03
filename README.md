@@ -255,7 +255,7 @@ After the reboot:
 
 ### Online Accounts
 
-<img loading="lazy" src="/assets/images/screenshots/user-setup/step-5-online-accounts.png" alt="Screenshots / User setup / Step 6 Online Accounts">
+<img loading="lazy" src="/assets/images/screenshots/user-setup/step-6-online-accounts.png" alt="Screenshots / User setup / Step 6 Online Accounts">
 
 * Click "Skip" (unless you prefer to set up online accounts here).
 
